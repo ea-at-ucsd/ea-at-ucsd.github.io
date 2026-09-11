@@ -161,7 +161,7 @@
     position:relative;width:100%;aspect-ratio:4/5;overflow:hidden;
     background:var(--paper-2);border-radius:2px;
   }
-  .member .shot img{width:100%;height:100%;object-fit:cover;display:block}
+  .member .shot img{width:100%;height:100%;object-fit:cover;display:block;position:relative;z-index:1}
   .member .initials{
     position:absolute;inset:0;display:grid;place-items:center;
     font-family:var(--sans);font-weight:600;font-size:1.5rem;color:var(--muted);
@@ -466,7 +466,7 @@
     {
       name: "Brittney Nial",
       role: "Founder & President",
-      note: "Pursuing a Master in Public Policy, Program Evaluation.",
+      note: "Master in Public Policy (MPP), Program Evaluation",
       photo: "brittney-nial.jpg",
       email: "bnial@ucsd.edu",
       linkedin: "https://www.linkedin.com/in/brittney-nial-95b045180/"
@@ -505,6 +505,10 @@
       img.alt = m.name;                       // falls back to initials if the file is missing
       img.loading = 'lazy';
       img.onerror = function () { img.remove(); };
+            img.onload = function () {
+        var initials = li.querySelector('.initials');
+        if (initials) initials.remove();
+      };
       img.src = m.photo;
       li.querySelector('.shot').appendChild(img);
     }
