@@ -22,7 +22,7 @@ FEED = f"https://calendar.google.com/calendar/ical/{CALENDAR_ID}/public/basic.ic
 
 TZ = ZoneInfo("America/Los_Angeles")
 DAYS_AHEAD = 120          # how far forward to look
-MAX_EVENTS = 12           # how many to show on the page
+MAX_EVENTS = 20           # how many to show on the page
 OUT = "events.json"
 
 
