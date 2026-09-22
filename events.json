@@ -1,4 +1,13 @@
 {
-  "updated": null,
-  "events": []
+  "updated": "2026-09-22T13:07-07:00",
+  "events": [
+    {
+      "iso": "2026-10-08T12:00:00-07:00",
+      "date": "Thu, Oct 8",
+      "time": "12pm\u20131:45pm",
+      "title": "Effective Altruism (EA) at UCSD Kickoff!",
+      "location": "Geisel Library, 9701 Hopkins Dr, La Jolla, CA 92093, USA",
+      "url": "https://luma.com/myllts4s"
+    }
+  ]
 }
