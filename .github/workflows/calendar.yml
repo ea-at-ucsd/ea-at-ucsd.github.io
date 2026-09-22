@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - scripts/fetch_calendar(1).py
+      - scripts/fetch_calendar.py
       - .github/workflows/calendar.yml
 
 permissions:
