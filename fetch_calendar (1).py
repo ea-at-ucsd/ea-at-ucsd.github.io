@@ -8,7 +8,7 @@ event to register — no cookies or consent banners on the site itself.
 
 To find FEED: open your calendar on Luma, click "Add iCal Subscription",
 and copy the link. It looks like
-    https://api.lu.ma/ics/get?entity=calendar&id=cal-XXXXXXXXXXXX
+    https://api.lu.ma/ics/get?entity=calendar&id=cal-43L1lBMuZVJiQ7N
 """
 
 import json
@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 import icalendar
 import recurring_ical_events
 
-FEED = "https://api.lu.ma/ics/get?entity=calendar&id=TODO-your-cal-id"   # TODO: paste your iCal link
+FEED = "https://api.lu.ma/ics/get?entity=calendar&id=TODO-your-cal-43L1lBMuZVJiQ7N"   # TODO: paste your iCal link
 
 # Luma puts each event's page in the URL field, or failing that in the
 # description text. Either way, that page is where people register.
