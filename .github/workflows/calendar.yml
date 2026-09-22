@@ -24,7 +24,7 @@ jobs:
 
       - run: pip install icalendar recurring-ical-events
 
-      - run: python scripts/fetch_calendar.py
+      - run: python fetch_calendar.py
 
       - name: Commit if the events changed
         run: |
