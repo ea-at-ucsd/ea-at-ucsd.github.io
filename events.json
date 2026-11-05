@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:25-08:00",
+  "updated": "2026-11-04T23:57-08:00",
   "events": [
     {
       "iso": "2026-11-09T16:45:00-08:00",
@@ -8,6 +8,38 @@
       "title": "Speaker Series: Dr. McIntosh",
       "location": "SSC 554",
       "url": "https://luma.com/6rpnmvls"
+    },
+    {
+      "iso": "2026-11-16T16:45:00-08:00",
+      "date": "Mon, Nov 16",
+      "time": "4:45pm\u20136pm",
+      "title": "AI Safety",
+      "location": "SSC 554",
+      "url": "https://luma.com/4y6bw9h1"
+    },
+    {
+      "iso": "2026-11-21T16:45:00-08:00",
+      "date": "Sat, Nov 21",
+      "time": "4:45pm\u20136pm",
+      "title": "Giving Circle Party",
+      "location": "SSC 554",
+      "url": "https://luma.com/f1762ld6"
+    },
+    {
+      "iso": "2026-11-23T16:45:00-08:00",
+      "date": "Mon, Nov 23",
+      "time": "4:45pm\u20136pm",
+      "title": "Speaker Series: Energy",
+      "location": "SSC 554",
+      "url": "https://luma.com/de2ube99"
+    },
+    {
+      "iso": "2026-11-30T16:45:00-08:00",
+      "date": "Mon, Nov 30",
+      "time": "4:45pm\u20136pm",
+      "title": "Final Fall Meeting",
+      "location": "SSC 554",
+      "url": "https://luma.com/vifu8wwu"
     }
   ]
 }
